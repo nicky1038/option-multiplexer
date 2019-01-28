@@ -1,5 +1,6 @@
 
-var multiplex = require('multi');
+var multiplex = require('../../lib/multi');
+var expect = require('chai').expect;
 
 describe('multiplex', function() {
 	it('should generate correct values', function() {
